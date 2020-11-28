@@ -1,0 +1,31 @@
+{
+    "name": "static-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bassaer/static-express.git"
+    },
+    "keywords": [],
+    "author": "Tsubasa Nakayama <app.nakayama@gmail.com> (https://bassaer.github.io/me/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bassaer/static-express/issues"
+    },
+    "homepage": "https://github.com/bassaer/static-express#readme",
+    "dependencies": {
+        "@types/express": "^4.17.9",
+        "@types/node": "^14.14.10",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "ts-node": "^9.0.0",
+        "typescript": "^4.1.2"
+    }
+}
